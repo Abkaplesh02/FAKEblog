@@ -1,5 +1,7 @@
 import './App.css'
 import Header from './Components/Header/Header'
+import MainFooter from './Components/MainFooter/MainFooter'
+import LandingPage from './Components/MainLandingPage/LandingPage'
 
 function App() {
  
@@ -8,6 +10,8 @@ function App() {
     
     <div >
       <Header/>
+      <LandingPage/>
+      <MainFooter/>
     </div>
 
   )
