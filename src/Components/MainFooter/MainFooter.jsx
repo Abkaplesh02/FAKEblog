@@ -1,6 +1,6 @@
 const MainFooter=()=>{
     return (
-        <div className="cursor-pointer pt-2 border-t-2 border-gray-400 flex absolute w-full top-[93vh] gap-8 justify-center text-sm text-gray-600">
+        <div className="fixed z-30 bg-white cursor-pointer pt-2 border-t-2 border-gray-400 flex  w-full bottom-0 pb-4 gap-8 justify-center text-sm text-gray-700">
             <div>Help</div>
             <div>Status</div>
             <div>About</div>

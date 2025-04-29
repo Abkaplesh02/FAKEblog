@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom";
+
 const Content=()=>{
+    const navigate=useNavigate();
     return (
         <div className="w-7/12 ">
 
@@ -11,7 +14,7 @@ const Content=()=>{
             Start reading
             </div>
 
-            <button className="cursor-pointer bg-black text-3xl border-2 border-transparent text-white rounded-4xl px-4 py-2 hover:bg-white hover:text-black hover:border-black">Start Reading</button>
+            <button className="cursor-pointer bg-black text-3xl border-2 border-transparent text-white rounded-4xl px-4 py-2 hover:bg-white hover:text-black hover:border-black" onClick={()=>navigate("/blogs")}>Start Reading</button>
         </div>
     )
 }
